@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.js.iife.js"></script>
+</head>
+<body onload="onFocusElementFormPage();" id="main">
+    <div id="menu">
+        <img src="img/main.png">
+        <a id="menu-txt" href="./index.html">Ir a Inicio</a>
+    </div>
+    <div id="form">
+        <div id="form-header">
+            <h1>Estate a la última!</h1>
+            <p>
+                Suscríbase a nuestra newsletter para estar informado de las últimas noticias! no se pierda ni una.
+            </p>
+        </div>
+        <div id="fields">
+            <h2>E-Mail</h2>
+            <label>
+                <input id="mail" type="email" placeholder="Introduzca su correo">
+            </label>
+            <div id="name">
+                <div>
+                    <h2>Primer apellido</h2>
+                    <label>
+                        <input id="first-name" type="text" placeholder="Primer apellido">
+                    </label>
+                </div>
+                <div>
+                    <h2>Segundo apellido</h2>
+                    <label>
+                        <input id="second-name" type="text" placeholder="Segundo apellido">
+                    </label>
+                </div>
+            </div>
+            <div id="agreements">
+                <div>
+                    <label>
+                        <input type="checkbox">
+                    </label>
+                </div>
+                <p>
+                    Estoy de acuerdo en recibir la newsletter y ofertas promocionales.
+                </p>
+            </div>
+            <button onclick="goToIndex()">Suscribirme YA!</button>
+        </div>
+    </div>
+    <script src="js/webbuilder.js"></script>
+    <script src="js/driver.js"></script>
+</body>
+</html>

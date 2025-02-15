@@ -1,0 +1,230 @@
+body {
+    width: 60vw;
+    margin: 32px auto;
+    font-family: "Candara Light", sans-serif;
+    font-size: large;
+    background-color: whitesmoke;
+}
+
+#titular {
+    text-align: center;
+    font-variant: small-caps;
+}
+
+#menu {
+    --size-image: 48px;
+    cursor: pointer;
+    z-index: 1;
+    position: fixed;
+    width: 224px;
+    height: var(--size-image);
+    top: 32px;
+    right: 64px;
+    background-color: white;
+    box-shadow: lightgray 5px 5px 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    padding: 4px;
+    display: grid;
+    grid-template-columns: var(--size-image) auto;
+    grid-column-gap: 8px;
+    border: lightgray 1px solid;
+
+    img {
+        width: var(--size-image);
+        height: var(--size-image);
+    }
+
+    #menu-txt {
+        color: black;
+        margin: 0;
+        align-self: center;
+        font-size: larger;
+        font-weight: bolder;
+        transition: all 0.3s ease-in-out;
+        text-decoration: none;
+    }
+}
+
+#menu:hover {
+    width: 232px;
+
+    #menu-txt {
+        color: cornflowerblue;
+        text-shadow: 0 0 5px cornflowerblue;
+    }
+}
+
+#section {
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 8px));
+    grid-column-gap: 16px;
+    grid-row-gap: 32px;
+    text-align: justify;
+    hyphens: auto;
+
+    div {
+        padding: 24px;
+        box-shadow: lightgray 5px 5px 10px;
+        line-height: 1.5em;
+        border: lightgray 1px solid;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    #color {
+        padding: 16px;
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-column: 1 / 2 span;
+        box-shadow: none;
+        border: lightgray 1px solid;
+        border-radius: 0;
+
+        div {
+            cursor: pointer;
+            width: 50%;
+            height: 6vh;
+            margin: auto;
+            box-shadow: none;
+            border: none;
+            border-radius: 0;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+        }
+
+        div:hover {
+            width: calc(50% - 8px);
+            height: 5.5vh;
+        }
+    }
+}
+
+#form {
+    padding: 24px;
+    width: 30vw;
+    margin: auto;
+    box-shadow: lightgray 5px 5px 10px;
+    border: 1px lightgray solid;
+    border-radius: 20px;
+    background-color: white;
+
+    #form-header {
+        grid-column: 1 / 2 span;
+        text-align: left;
+        font-variant: small-caps;
+        font-weight: bolder;
+
+        p {
+            margin: 8px 0 8px 0;
+            font-variant: normal;
+            font-weight: normal;
+        }
+    }
+
+    #fields {
+        font-family: "Candara Light", sans-serif;
+        grid-column: 1 / 2 span;
+
+        h2 {
+            font-family: inherit;
+            font-size: larger;
+        }
+
+        input {
+            width: calc(100% - 24px);
+            padding: 8px;
+            font-family: inherit;
+            font-size: large;
+        }
+
+        #name {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+        }
+
+        #agreements {
+            margin: 24px 0 24px 0;
+            display: grid;
+            grid-template-columns: 32px auto;
+
+            label {
+                display: inline-block;
+                align-content: start;
+
+                input {
+                    width: 100%
+                }
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+
+        button {
+            padding: 16px;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: large;
+            font-weight: bolder;
+            width: 100%;
+            background-color: brown;
+            color: white;
+            transition: all 0.3s ease-in-out;
+            border: none;
+        }
+
+        button:hover {
+            background-color: red;
+        }
+    }
+}
+
+div.driver-popover.custom {
+    --set-background-color: white;
+    font-family: "Candara Light", sans-serif;
+    background-color: var(--set-background-color);
+
+    .driver-popover-navigation-btns {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .driver-popover-next-btn, .driver-popover-prev-btn {
+        padding: 4px;
+        font-family: inherit;
+        font-size: medium;
+        transition: all 0.1s ease;
+        text-align: center;
+    }
+
+    .driver-popover-next-btn:hover {
+        background-color: darkgray;
+        color: white;
+    }
+
+    .driver-popover-prev-btn:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .driver-popover-title {
+        font-family: "Arial", sans-serif;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+
+    .driver-popover-description {
+        font-family: inherit;
+        font-size: medium;
+        text-align: justify;
+        hyphens: auto;
+        line-height: 1.5em;
+        font-weight: bold;
+    }
+
+    .driver-popover-arrow-side-left.driver-popover-arrow {
+        border-left-color: var(--set-background-color);
+    }
+}

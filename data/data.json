@@ -1,0 +1,66 @@
+{
+  "header": {
+    "element": "h1",
+    "idOrClass": "titular",
+    "txt": "DEMO de driver.js",
+    "driver": {
+      "description": "Esto es el título principal del sitio Web de la DEMO de driver.js."
+    }
+  },
+  "section": [
+    {
+      "element": "div",
+      "idOrClass": "div1001",
+      "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget congue nulla. Nullam massa ipsum, mollis ac commodo fermentum, aliquam eu turpis. Nam convallis dictum mauris, id rhoncus sem feugiat vitae. In non erat laoreet, consectetur felis sit amet, elementum mi. Suspendisse et imperdiet nisi, a venenatis arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu risus velit. Aenean sed bibendum magna.",
+      "driver": {
+        "description": "Primer recuadro, aspecto definido en el fichero 'stylesheet.css'."
+      }
+    },
+    {
+      "element": "div",
+      "idOrClass": "div1002",
+      "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum ex ac eleifend tincidunt. Mauris porttitor nibh vitae erat rhoncus, nec interdum nibh tincidunt. Nunc consequat ultrices est, nec molestie ipsum. Aliquam orci nisl, varius vel enim nec, molestie molestie sapien. Phasellus et interdum elit, et dapibus neque. Nulla eu scelerisque tortor. Duis ut vehicula felis, ut tristique magna. Fusce non mi elit. Mauris aliquet nulla nec ante bibendum blandit. Etiam consectetur nunc in leo consectetur, ut vehicula libero sodales. Vestibulum quis nibh in quam ornare ullamcorper. Nam suscipit turpis odio. Vivamus aliquam ultricies elit et fringilla.",
+      "driver": {
+        "description": "Segundo recuadro, aspecto definido en el fichero 'stylesheet.css'."
+      }
+    },
+    {
+      "element": "div",
+      "idOrClass": "div1003",
+      "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lectus dolor, fringilla quis facilisis eget, sagittis ac turpis. Aenean ut ipsum non est varius pretium. Suspendisse potenti. Praesent nec lectus a erat rhoncus suscipit nec nec elit. Vivamus blandit nec mauris in tristique. Curabitur pharetra malesuada erat a maximus. Sed vitae sapien maximus, consectetur mauris sit amet, facilisis elit. Praesent bibendum magna nunc, id aliquam magna semper vel. Vestibulum auctor rutrum placerat. Proin sagittis orci tortor, et tempor quam euismod vel. Suspendisse orci justo, elementum eu efficitur nec, fringilla id tortor. Donec convallis ut lorem ut mollis.",
+      "driver": {
+        "description": "Tercer recuadro, aspecto definido en el fichero 'stylesheet.css'."
+      }
+    },
+    {
+      "element": "div",
+      "idOrClass": "div1004",
+      "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nisi turpis, cursus ut eros in, volutpat dignissim libero. Donec lacinia ex ac congue aliquet. Morbi faucibus purus ac enim tristique porta. Ut quis diam vulputate, facilisis sapien et, lacinia turpis. Nulla tincidunt lectus neque, quis facilisis tortor posuere ut. Sed lectus mauris, sodales nec elementum eget, sagittis sit amet leo. Donec eleifend congue massa, ac accumsan ante lacinia rhoncus. Nunc ut tincidunt tortor. Donec vitae magna velit.",
+      "driver": {
+        "description": "Cuarto recuadro, aspecto definido en el fichero 'stylesheet.css'."
+      }
+    }
+  ],
+  "color": [
+    {
+      "element": "div",
+      "idOrClass": "color1101",
+      "color": "brown"
+    },
+    {
+      "element": "div",
+      "idOrClass": "color1102",
+      "color": "darkolivegreen"
+    },
+    {
+      "element": "div",
+      "idOrClass": "color1103",
+      "color": "mediumslateblue"
+    },
+    {
+      "element": "div",
+      "idOrClass": "color1104",
+      "color": "rosybrown"
+    }
+  ]
+}
